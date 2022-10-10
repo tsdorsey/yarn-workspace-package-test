@@ -1,0 +1,24 @@
+{
+  "name": "@nucleus/leaders",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "./leaders.ts",
+  "types": "./leaders.ts",
+  "scripts": {
+    "build": "yarn sls webpack",
+    "deploy": "yarn sls deploy",
+    "invoke": "env TZ=UTC yarn node ../../scripts/invoke.js",
+    "lint": "eslint",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js",
+    "test": "yarn sls jest"
+  },
+  "dependencies": {
+    "@nucleus/src": "*",
+    "@nucleus/src-platform": "*"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*",
+    "@nucleus/types": "*",
+    "serverless": "3.22.0"
+  }
+}

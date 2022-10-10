@@ -1,0 +1,17 @@
+{
+  "name": "@nucleus/image-magick",
+  "version": "1.0.0",
+  "main": "image-magick.ts",
+  "types": "image-magick.ts",
+  "license": "UNLICENSED",
+  "scripts": {
+    "fetch-options": "node ./scripts/fetch-options.js",
+    "test": "../../node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "prettier": "^2.3.2"
+  }
+}

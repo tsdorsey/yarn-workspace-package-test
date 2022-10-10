@@ -1,0 +1,15 @@
+{
+  "name": "@nucleus/redirect",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "yarn sls webpack",
+    "deploy": "yarn sls deploy",
+    "invoke": "env TZ=UTC yarn node ../../scripts/invoke.js",
+    "lint": "eslint",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*"
+  }
+}

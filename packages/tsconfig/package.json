@@ -1,0 +1,11 @@
+{
+  "name": "@nucleus/tsconfig",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "files": [
+    "base.json",
+    "browserReact.json",
+    "node.json",
+    "nodeReact.json"
+  ]
+}

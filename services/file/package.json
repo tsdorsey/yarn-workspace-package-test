@@ -1,0 +1,27 @@
+{
+  "name": "@nucleus/file",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "./file.ts",
+  "types": "./file.ts",
+  "scripts": {
+    "build": "yarn sls webpack",
+    "deploy": "yarn sls deploy",
+    "invoke": "env TZ=UTC yarn node ../../scripts/invoke.js",
+    "lint": "eslint",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js",
+    "test": "yarn sls jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.165.0",
+    "@aws-sdk/signature-v4-crt": "^3.170.0",
+    "@nucleus/src": "*",
+    "@nucleus/src-platform": "*",
+    "blurhash": "^1.1.5"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*",
+    "@nucleus/types": "*",
+    "serverless": "^3.22.0"
+  }
+}

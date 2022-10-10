@@ -1,0 +1,26 @@
+{
+  "name": "@nucleus/src",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js",
+    "test": "yarn sls jest"
+  },
+  "files": [
+    "**/*"
+  ],
+  "dependencies": {
+    "@nucleus/domains": "*",
+    "@nucleus/src": "*",
+    "@nucleus/src-giving": "*",
+    "@nucleus/src-platform": "*",
+    "lru-cache": "^7.13.2",
+    "memoizee": "^0.4.15"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*",
+    "@nucleus/types": "*",
+    "@types/memoizee": "^0.4.8"
+  }
+}

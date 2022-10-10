@@ -1,0 +1,14 @@
+{
+  "name": "@nucleus/web-hosting",
+  "version": "1.0.0",
+  "description": "Web hosting resources and infrastructure resources.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "deploy": "yarn sls deploy",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*",
+    "serverless": "^3.22.0"
+  }
+}

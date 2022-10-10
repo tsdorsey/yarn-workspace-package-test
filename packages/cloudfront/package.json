@@ -1,0 +1,11 @@
+{
+  "name": "@nucleus/cloudfront",
+  "version": "1.0.0",
+  "main": "cloudfront.ts",
+  "types": "cloudfront.ts",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.171.0",
+    "@nucleus/src-platform": "*"
+  }
+}

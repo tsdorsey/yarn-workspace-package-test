@@ -1,0 +1,24 @@
+{
+  "name": "@nucleus/domains",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "main.ts",
+  "types": "main.ts",
+  "scripts": {
+    "build": "yarn sls webpack",
+    "deploy": "yarn sls deploy",
+    "invoke": "env TZ=UTC yarn node ../../scripts/invoke.js",
+    "lint": "eslint",
+    "sls": "env TZ=UTC yarn node ../../scripts/sls.js",
+    "test": "yarn sls jest"
+  },
+  "dependencies": {
+    "@nucleus/bonds": "*",
+    "@nucleus/src": "*",
+    "@nucleus/src-platform": "*"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*",
+    "@nucleus/types": "*"
+  }
+}

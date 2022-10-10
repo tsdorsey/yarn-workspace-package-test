@@ -1,0 +1,11 @@
+{
+  "name": "@nucleus/queue-sqs",
+  "version": "1.0.0",
+  "main": "queueSqs.ts",
+  "types": "queueSqs.ts",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.171.0",
+    "@nucleus/src": "*"
+  }
+}

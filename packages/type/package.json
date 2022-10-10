@@ -1,0 +1,19 @@
+{
+  "name": "@nucleus/types",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@nucleus/src": "*",
+    "@nucleus/src-giving": "*",
+    "@nucleus/src-platform": "*"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*"
+  }
+}

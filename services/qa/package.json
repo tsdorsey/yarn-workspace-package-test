@@ -1,0 +1,16 @@
+{
+  "name": "@nucleus/qa",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint",
+    "playwright": "env TZ=UTC yarn node ../../scripts/playwright.js"
+  },
+  "dependencies": {
+    "@nucleus/src": "*",
+    "@playwright/test": "1.21"
+  },
+  "devDependencies": {
+    "@nucleus/tsconfig": "*"
+  }
+}
